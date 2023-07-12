@@ -310,3 +310,29 @@
 .img{
 	object-fit: cover;
 }
+
+
+.table-heading{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.table-text{
+	font-size: 10px;
+}
+
+@media screen and (min-width:768px) {
+	.table-heading{
+		font-size: 32px;
+	}
+	
+	.table-text{
+		font-size: 24px;
+	}
+	
+	
+}
+
+.main-heading{
+	font-size: 32px;
+}
