@@ -5,6 +5,7 @@
 .shape1{
    
     animation: anima1 3s infinite ease-in-out;
+    max-height: 70vh;
 }
 
 @media screen and (max-width:768px) {
