@@ -1,13 +1,13 @@
 window.addEventListener('scroll', function() {
     var header = document.querySelector('header');
-    const element = document.getElementById("pills-tab");
+    const element = document.getElementById("tabs");
     if (window.scrollY > 240) {
       header.classList.add('scrolled-header');
-      element.classList.remove("d-none");
+      element.classList.add("scrolled-tabs");
     } else {
      
       header.classList.remove('scrolled-header');
-      element.classList.add("d-none");
+      element.classList.remove("scrolled-tabs");
     }
   });
 
@@ -18,6 +18,8 @@ window.addEventListener('scroll', function() {
 
 
   function myFunction() {
-    window.scrollTo(0, 910);
+   
+    const element = document.getElementById("active");
+    element.scrollIntoView();
    
   }
